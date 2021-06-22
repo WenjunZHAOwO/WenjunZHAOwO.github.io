@@ -1,0 +1,150 @@
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.9]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Wenjun} % Your first name
+\familyname{Zhao} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Courant Institute of Mathematical Sciences, 251 Mercer Street}{New York, NY 10012}
+\mobile{(646) 509 4683}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{wenjun@cims.nyu.edu}
+\homepage{www.cims.nyu.edu/~wenjun}{cims.nyu.edu/$\sim$wenjun} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+ \cventry{2016--now}{Courant Institute of Mathematical Sciences, New York University}{PhD candidate in Atmosphere Ocean Science and Mathematics}{New York, US}{}{Advisor: Professor Esteban G. Tabak}  % Arguments not required can be left empty
+ \cventry{2012--2016}{Special Class for Gifted Youth, University of Science and Technology of China (USTC)}{BS in Computational Mathematics}{Hefei, China}{}{}
+
+ \cventry{}{}{\normalfont Visiting student at Department of Computer Science, University of Oxford}{\normalfont 2015}{}{}
+\vskip -.5cm
+
+%----------------------------------------------------------------------------------------
+%	Research interests
+%----------------------------------------------------------------------------------------
+\vskip -.5cm
+\section{Research interests}
+
+Optimal transport and its applications; theoretical and computational geophysical fluid dynamics.
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research experience}
+
+\subsection{Graduate research projects}
+
+\cventry{2018-now}{With Professors Oliver B\"uhler, Carlos Fernandez-Granda, and Esteban Tabak}{Resolving subgrid-scale turbulence dynamics with deep learning }{New York, US}{}{}
+
+\cventry{Submitted to SIMODS}{With Professors Esteban Tabak and Giulio Trigila}{Conditional Density Estimation through Optimal Transport}{New York, US}{}{From conventional barycenter optimal transport problem, we propose a methodology to explain the variability and provide simulated conditional density estimation with applications in forecast of US ground temperature. Presented at student seminar, NYU. }  % Arguments not required can be left empty
+
+
+
+\subsection{Undergraduate research projects}
+
+\cventry{2016}{Undergraduate thesis at Chinese Academy of Sciences}{New Algorithms for Optimal Portfolio Deleveraging Problem}{Beijing, China}{}{Advisor: Professor Yuhong Duan}  % Arguments not required can be left empty
+
+\cventry{2015}{Summer project at Department of Computer Science, University of Oxford, funded by USTC}{Model Verification for Partially Observable Stochastic Hybrid System}{Oxford, UK}{}{Mentor: Professor Alessandro Abate}
+
+\cventry{2015}{Meritorious Winner in Mathematical Contest of Modeling}{Macro Scheduling in Face of Ebola}{}{}{}
+%\vskip -.5cm
+\cventry{2013}{Presented at Department of Physics, USTC and won first prize in school-wide Contest of Electromagnetics }{Numerical Methods in Solving the Resistance of Grid Problems}{}{}{}
+
+\subsection{Participation}
+\cventry{ 2018}{}{NASA JPL-Caltech Summer School: Using Satellite Observations to Advance Climate Models }{}{}{}  % Arguments not required can be left empty
+
+
+%----------------------------------------------------------------------------------------
+%	Programming skills
+%----------------------------------------------------------------------------------------
+
+
+\section{Programming skills}
+
+C, Java, MATLAB, Python, Mathematica, \LaTeX , Linux
+
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Honors}
+
+%\cvitem{2016}{MacCracken Fellowship}
+\cventry{2016--now}{Courant Institute of Mathematical Sciences, New York University}{MacCracken Fellowship}{New York, US}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	Teaching
+%----------------------------------------------------------------------------------------
+
+\section{Teaching}
+
+\cventry{}{}{\normalfont Grader for undergraduate and graduate ODEs/PDEs, New York University}{\normalfont 2017--2018}{}{}
+\vskip -.5cm
+\cventry{}{}{\normalfont Teaching assistant for undergraduate multivariable calculus, USTC}{\normalfont 2015}{}{}
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
