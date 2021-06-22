@@ -1,5 +1,10 @@
-CV_Wenjun2.pdf
+CV_Wenjun*
 MCMCer.pdf
 38432.pdf
 *.zip
-cv_7/*
+cv_7/
+old/
+.DS_Store
+.Trash*
+img/
+index2.html
