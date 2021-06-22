@@ -6,10 +6,11 @@ cv_7/
 old/
 .DS_Store
 .Trash*
-img/
 index2.html
 *log
 *tex
 draft.pdf
 ls/
 WZhao*
+img/glyphicons*
+images/
