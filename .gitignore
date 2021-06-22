@@ -1,4 +1,4 @@
-CV_Wenjun*
+CV*
 MCMCer.pdf
 38432.pdf
 *.zip
@@ -8,3 +8,6 @@ old/
 .Trash*
 img/
 index2.html
+*log
+*tex
+draft.pdf
