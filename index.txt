@@ -60,5 +60,6 @@ Page generated 2024-02-13 15:00:27 EST, by <a href="https://github.com/wsshin/je
 </td>
 </tr>
 </table>
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=70&t=n&d=48o24hU4SngAMeLx8PTpBNC9Ig9JybyN94EgjXwak0o&co=ffffff&ct=ffffff&cmo=ffffff&cmn=ffffff"></script>
 </body>
 </html>
