@@ -25,7 +25,51 @@
 <p><br />
 </p>
 <h1>Research Overview</h1>
-<h2>Conditional sampling through transport maps</h2>
+<p>Biological systems are often observed as collections of probability distributions that vary across space, time, or condition. I develop geometric and statistical methods to model such distributional data and recover latent structure and dynamical mechanisms. My work connects optimal transport, structure learning, and mechanistic modeling, with applications in single-cell and spatial transcriptomics as well as biological shape analysis. My research program builds a unified geometric framework for learning structure and dynamics from distributional biological data.
+</p>
+<h2>Causal inference in single-cell and spatial transcriptomics</h2>
+<p>Gene regulatory network inference is a challenging problem in computational biology. In single-cell RNA-seq and spatial transcriptomics, gene expression is observed as distributions of cellular states that vary across time or spatial location. The goal is to recover latent dynamical and causal relationships among genes from such distributional data, often without explicit time-series measurements. My work develops geometric and mechanistic approaches that model these evolving distributions and infer regulatory dynamics consistent with observed invariant or spatial structure.
+</p>
+<h3>References</h3>
+<ol>
+<li><p>W Zhao, E Fertig, G Stein-O'Brien<br />
+<b>CycleGRN: Inferring Gene Regulatory Networks from Cyclic Flow Dynamics in Single-Cell RNA-seq</b>
+<a href="https://www.biorxiv.org/cgi/content/short/2025.11.12.688126v1" target=&ldquo;blank&rdquo;>(preprint)</a><br />
+<i>RECOMB (2026)</i>
+</p>
+</li>
+<li><p>W Zhao, A Plaza-Rodriguez, P Luanpaisanon, EX Wang, L Gyllingberg, R Singh, E Fertig, G Stein-O'Brien<br />
+<b>Inferring the regulation dynamics of oscillatory networks from scRNA-seq data</b> <a href="http://dx.doi.org/10.1101/2025.11.08.687360" target=&ldquo;blank&rdquo;>(preprint)</a><br />
+</p>
+</li>
+<li><p>W Zhao, E Larschan, B Sandstede, and R Singh. <br />
+<b>Optimal Transport Reveals Dynamic Gene Regulatory Networks via Gene Velocity Estimation</b>  <a href="https://www.biorxiv.org/content/10.1101/2024.09.12.612590v1" target=&ldquo;blank&rdquo;>(preprint)</a><a href="https://doi.org/10.1371/journal.pcbi.1012476" target=&ldquo;blank&rdquo;>(publication)</a> <br />
+<i>PLOS Computational Biology (2025)</i> 
+</p>
+</li>
+</ol>
+<h2>Shape analysis</h2>
+<p>Recent advances in technology have enabled high throughput imaging data of biological shapes, ranging from contour curves of cancer cell shapes, to 3D protein structures measured from Cryo-EM. Given complex imaging data, the goal is to extract crucial information from those shapes and model their variation across different spatial/temporal scales. Computational tools have been developed for applications including cell shape contours in 2D and images in 3D, ribosome shapes, and beyond. These methods provide statistical tools for comparing and testing structural differences in geometric biological data represented as distributions.
+</p>
+<h3>References</h3>
+<ol>
+<li><p>W Zhao, DJ Sutherland, K Dao Duc. <br />
+<b>Fast and Interpretable Quantification of Biological Shape Heterogeneity via Stratified Wasserstein Kernel</b>
+<a href="https://www.biorxiv.org/content/10.1101/2025.11.05.686865v1" target=&ldquo;blank&rdquo;>(preprint)</a><br />
+</p>
+</li>
+<li><p>S Yu, A Kushner, E Teasell, W Zhao, S Srebnik, and K Dao Duc. <br />
+<b>Advanced Coarse Grained Model for Fast Simulation of  Nascent Polypeptide Chain within the Ribosome</b> <a href="https://www.biorxiv.org/content/10.1101/2025.04.08.647858v1" target=&ldquo;blank&rdquo;>(preprint)</a> <a href="https://doi.org/10.1016/j.bpj.2025.10.044" target=&ldquo;blank&rdquo;>(publication)</a><br />
+<i>Biophysical Journal (2025)</i>. 
+</p>
+</li>
+<li><p>W Zhao, S Maffa, and B Sandstede. <br />
+<b>Data-driven Continuation of Patterns and their Bifurcations</b> <a href="poster_dynamicsdays.pdf" target=&ldquo;blank&rdquo;>(poster)</a> <a href="https://arxiv.org/abs/2503.05736" target=&ldquo;blank&rdquo;>(preprint)</a> <a href="https://doi.org/10.1137/24M165644X" target=&ldquo;blank&rdquo;>(publication)</a> <br />
+<i>SIAM Journal on Applied Dynamical Systems (2025)</i>. 
+</p>
+</li>
+</ol>
+<h2>Modeling covariate-dependent probability distributions</h2>
 <p>Given observational data as pairs of outcome and covariates, a central problem is to estimate and/or simulate from the conditional densities for any arbitrary covariates. To enhance sampling efficiency, we proposed a two-step procedure to fully exploit the information, first pooling all data together through Wasserstein barycenter such that the outcomes are independent of their covariates. The framework has been generalized to account for confounding and missing values in covariates. Applications include meteorological time series, image processing, treatment effect estimation and beyond.
 </p>
 <h3>References</h3>
@@ -60,50 +104,9 @@
 </p>
 </li>
 </ol>
-<h2>Causal inference in single-cell transcriptomics</h2>
-<p>Gene regulatory network inference is a notoriously difficult problem in computational biology. Given gene expression levels of single cells across different time points of measurement and/or developmental ages, the goal is to infer the causal relationship between different genes. 
-</p>
-<h3>References</h3>
-<ol>
-<li><p>W Zhao, E Fertig, G Stein-O'Brien<br />
-<b>CycleGRN: Inferring Gene Regulatory Networks from Cyclic Flow Dynamics in Single-Cell RNA-seq</b>
-<a href="https://www.biorxiv.org/cgi/content/short/2025.11.12.688126v1" target=&ldquo;blank&rdquo;>(preprint)</a><br />
-</p>
-</li>
-<li><p>W Zhao, A Plaza-Rodriguez, P Luanpaisanon, EX Wang, L Gyllingberg, R Singh, E Fertig, G Stein-O'Brien<br />
-<b>Inferring the regulation dynamics of oscillatory networks from scRNA-seq data</b> <a href="http://dx.doi.org/10.1101/2025.11.08.687360" target=&ldquo;blank&rdquo;>(preprint)</a><br />
-</p>
-</li>
-<li><p>W Zhao, E Larschan, B Sandstede, and R Singh. <br />
-<b>Optimal Transport Reveals Dynamic Gene Regulatory Networks via Gene Velocity Estimation</b>  <a href="https://www.biorxiv.org/content/10.1101/2024.09.12.612590v1" target=&ldquo;blank&rdquo;>(preprint)</a><a href="https://doi.org/10.1371/journal.pcbi.1012476" target=&ldquo;blank&rdquo;>(publication)</a> <br />
-<i>PLOS Computational Biology (2025)</i> 
-</p>
-</li>
-</ol>
-<h2>Shape analysis</h2>
-<p>Recent advance in technology has enabled high throughput imaging data of biological shapes, ranging from contour curves of cancer cell shapes, to 3D protein structures measured from Cryo-EM. Given complex imaging data, the goal is to extract crucial information from those shapes and model their variation across different spatial/temporal scales. Computational tools have been developed for applications including cell shape contours in 2D and images in 3D, ribosome shapes, and beyond.
-</p>
-<h3>References</h3>
-<ol>
-<li><p>W Zhao, DJ Sutherland, K Dao Duc. <br />
-<b>Fast and Interpretable Quantification of Biological Shape Heterogeneity via Stratified Wasserstein Kernel</b>
-<a href="https://www.biorxiv.org/content/10.1101/2025.11.05.686865v1" target=&ldquo;blank&rdquo;>(preprint)</a><br />
-</p>
-</li>
-<li><p>S Yu, A Kushner, E Teasell, W Zhao, S Srebnik, and K Dao Duc. <br />
-<b>Advance Coarse Grained Model for Fast Simulation of  Nascent Polypeptide Chain within the Ribosome</b> <a href="https://www.biorxiv.org/content/10.1101/2025.04.08.647858v1" target=&ldquo;blank&rdquo;>(preprint)</a> <a href="https://doi.org/10.1016/j.bpj.2025.10.044" target=&ldquo;blank&rdquo;>(publication)</a><br />
-<i>Biophysical Journal (2025)</i>. 
-</p>
-</li>
-<li><p>W Zhao, S Maffa, and B Sandstede. <br />
-<b>Data-driven Continuation of Patterns and their Bifurcations</b> <a href="poster_dynamicsdays.pdf" target=&ldquo;blank&rdquo;>(poster)</a> <a href="https://arxiv.org/abs/2503.05736" target=&ldquo;blank&rdquo;>(preprint)</a> <a href="https://doi.org/10.1137/24M165644X" target=&ldquo;blank&rdquo;>(publication)</a> <br />
-<i>SIAM Journal on Applied Dynamical Systems (2025)</i>. 
-</p>
-</li>
-</ol>
 <div id="footer">
 <div id="footer-text">
-Page generated 2025-11-23 16:22:57 EST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2026-02-26 22:22:25 EST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
